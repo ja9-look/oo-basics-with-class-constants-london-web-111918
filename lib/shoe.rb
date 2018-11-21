@@ -23,5 +23,3 @@ class Shoe
   end
 
 end
-
-Pry.start
