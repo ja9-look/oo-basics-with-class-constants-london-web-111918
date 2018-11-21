@@ -15,9 +15,8 @@ class Shoe
   
   def brand=(brand)
     @brand = brand
-    BRANDS.map do |brand|
-    if include?(brand) 
     BRANDS << brand
+    BRANDS = BRANDS.uniq {
   end
 
 end
