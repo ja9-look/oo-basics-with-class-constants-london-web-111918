@@ -19,7 +19,7 @@ class Shoe
     @brand = brand
     BRANDS << brand
     binding.pry
-    BRANDS = BRANDS.uniq {|brand| brand.id}
+    BRANDS=BRANDS.uniq {|brand| brand.id}
   end
 
 end
