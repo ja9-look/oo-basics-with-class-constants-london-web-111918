@@ -17,9 +17,8 @@ class Shoe
   
   def brand=(brand)
     @brand = brand
-    BRANDS << brand
-    binding.pry
-    BRANDS=BRANDS.uniq {|brand| brand.id}
+    if  
+      BRANDS << brand
   end
 
 end
